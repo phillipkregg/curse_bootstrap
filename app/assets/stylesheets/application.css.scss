@@ -9,5 +9,14 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
  */
+
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import "font-awesome";
+
+
+// Import Sass
+@import "sass/globals/globals";
+@import "sass/layout/layout";
+@import "sass/components/components";

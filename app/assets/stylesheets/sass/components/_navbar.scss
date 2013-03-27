@@ -1,0 +1,13 @@
+
+
+.navbar {
+  border-radius: 0;
+  .navbar-inner {
+    border-radius: 0;
+  }
+  .navbar-search {
+    input[type="text"] {
+      border-radius: 0;
+    }
+  }
+}
